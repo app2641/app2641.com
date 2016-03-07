@@ -1,0 +1,30 @@
+<!doctype html>
+%html{ itemscope:"itemscope", itemtype: "http://data-vocabulary.org/Person", lang:"ja" }
+  %head
+    %meta{ content: "IE=edge", http: { equiv: "X-UA-Compatible" } }
+    %meta{ charset: "utf-8" }
+    %meta{ content: "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", name: "viewport" }
+
+    %meta{ property: "og:title", content:"app2641.com" }
+    %meta{ property: "og:type", content: "website" }
+    %meta{ property: "og:url", content:"http://app2641.com" }
+    %meta{ property: "og:image", content: "/images/profile.png" }
+    %meta{ property: "og:site_name", content: "app2641.com" }
+    %meta{ property: "og:description", content: "app2641さんのプロフィールだよ！" }
+
+    %meta{ name: "twitter:site", content: "@app2641" }
+    %meta{ name: "keywords", content: "app2641 プロフィール twitter github はてなブログ tumblr" }
+
+    %link{ rel: "author", href: "https://plus.google.com/107799956847403953714" }
+    %meta{ name: "description", content: "app2641さんのプロフィールだよ！" }
+
+    %link{ rel: "shortcut icon", type: "image/x-icon", href: "/images/favicon.ico" }
+
+    %title app2641.com
+
+    %link{ rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", integrity: "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin: "anonymous" }
+    = stylesheet_link_tag :site
+    = javascript_include_tag :all
+
+  %body
+    = yield

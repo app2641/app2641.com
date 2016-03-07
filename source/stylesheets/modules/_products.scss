@@ -1,0 +1,31 @@
+div.products {
+  margin-top: 60px;
+  font-size: 1.2em;
+}
+
+.product {
+  margin: 30px 0px;
+  padding: 10px 0px;
+
+  p {
+    margin: 0px;
+
+    a {
+      font-size: 1.4em;
+      vertical-align: middle;
+      text-decoration: none;
+      color: #eee;
+
+      img.product-img {
+        width: 20px;
+        margin: 10px;
+      }
+    }
+  }
+
+  p.description {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #eee;
+  }
+}
